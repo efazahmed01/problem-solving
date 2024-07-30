@@ -8,7 +8,6 @@ int main()
 
     //check all number:
     for (int i = 1; i <= n; i++){
-        //reverse:
         int temp = i;
         int rem;
         int sum = 0;
