@@ -19,3 +19,29 @@ int main()
     }
     return 0;
 }
+
+
+<------------Alternative-------------->
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int number[n];
+
+    number[0] = 2;
+    number[1] = 1;
+
+    printf("%d, %d, ",number[0],number[1]);
+    for(int i = 2; i < n; i++)
+    {
+        number[i] = number[i-1]+number[i-2];
+        printf("%d, ",number[i]);
+
+    }
+    return 0;
+
+}
+  
+    
