@@ -33,3 +33,12 @@ int main()
     
     return 0;
 }
+/*
+sample input:
+5
+5 9 1 2 6 4
+3 10
+
+Output
+5 9 1 10 2 6 4
+*/
